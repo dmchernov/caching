@@ -12,23 +12,35 @@ namespace CachingSolutionsSamples
 		[TestMethod]
 		public void CategoriesMemoryCacheTest()
 		{
-			var categoryManager = new Manager<Category>(new MemoryCache<Category>());
+			var manager = new Manager<Category>(new MemoryCache<Category>());
 
 			for (var i = 0; i < 10; i++)
 			{
-				Console.WriteLine(categoryManager.Get().Count());
+				Console.WriteLine(manager.Get().Count());
 				Thread.Sleep(100);
 			}
 		}
 
 		[TestMethod]
-		public void EmployeesMemoryCacheTest()
+		public void ProductsMemoryCacheTest()
 		{
-			var categoryManager = new Manager<Employee>(new MemoryCache<Employee>());
+			var manager = new Manager<Product>(new MemoryCache<Product>());
 
 			for (var i = 0; i < 10; i++)
 			{
-				Console.WriteLine(categoryManager.Get().Count());
+				Console.WriteLine(manager.Get().Count());
+				Thread.Sleep(100);
+			}
+		}
+
+		[TestMethod]
+		public void CustomersMemoryCacheTest()
+		{
+			var manager = new Manager<Customer>(new MemoryCache<Customer>());
+
+			for (var i = 0; i < 10; i++)
+			{
+				Console.WriteLine(manager.Get().FirstOrDefault()?.CompanyName);
 				Thread.Sleep(100);
 			}
 		}
@@ -36,11 +48,35 @@ namespace CachingSolutionsSamples
 		[TestMethod]
 		public void CategoriesRedisCacheTest()
 		{
-			var categoryManager = new Manager<Category>(new RedisCache<Category>("localhost"));
+			var manager = new Manager<Category>(new RedisCache<Category>("localhost"));
 
 			for (var i = 0; i < 10; i++)
 			{
-				Console.WriteLine(categoryManager.Get().Count());
+				Console.WriteLine(manager.Get().Count());
+				Thread.Sleep(100);
+			}
+		}
+
+		[TestMethod]
+		public void ProductsRedisCacheTest()
+		{
+			var manager = new Manager<Product>(new RedisCache<Product>("localhost"));
+
+			for (var i = 0; i < 10; i++)
+			{
+				Console.WriteLine(manager.Get().Count());
+				Thread.Sleep(100);
+			}
+		}
+
+		[TestMethod]
+		public void CustomersRedisCacheTest()
+		{
+			var manager = new Manager<Customer>(new RedisCache<Customer>("localhost"));
+
+			for (var i = 0; i < 10; i++)
+			{
+				Console.WriteLine(manager.Get().FirstOrDefault()?.CompanyName);
 				Thread.Sleep(100);
 			}
 		}

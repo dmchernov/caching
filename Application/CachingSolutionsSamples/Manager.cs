@@ -17,7 +17,7 @@ namespace CachingSolutionsSamples
 
 		public IEnumerable<T> Get()
 		{
-			Console.WriteLine("Get Categories");
+			Console.WriteLine("Get " + typeof(T));
 
 			var user = Thread.CurrentPrincipal.Identity.Name;
 			var result = cache.Get(user);

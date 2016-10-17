@@ -15,6 +15,5 @@ D:\WorkSpace\LocalGit\caching\Application\NorthwindLibrary\bin\Debug\EntityFrame
 D:\WorkSpace\LocalGit\caching\Application\NorthwindLibrary\bin\Debug\EntityFramework.SqlServer.dll
 D:\WorkSpace\LocalGit\caching\Application\NorthwindLibrary\bin\Debug\EntityFramework.xml
 D:\WorkSpace\LocalGit\caching\Application\NorthwindLibrary\bin\Debug\EntityFramework.SqlServer.xml
-D:\WorkSpace\LocalGit\caching\Application\NorthwindLibrary\obj\Debug\NorthwindLibrary.csprojResolveAssemblyReference.cache
 D:\WorkSpace\LocalGit\caching\Application\NorthwindLibrary\obj\Debug\NorthwindLibrary.dll
 D:\WorkSpace\LocalGit\caching\Application\NorthwindLibrary\obj\Debug\NorthwindLibrary.pdb

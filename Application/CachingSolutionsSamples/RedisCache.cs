@@ -9,9 +9,9 @@ namespace CachingSolutionsSamples
 	class RedisCache<T> : ICache<T>
 	{
 		private ConnectionMultiplexer redisConnection;
-		string prefix = "Cache_Categories";
+		string prefix = "Cache_" + typeof(T);
 		DataContractSerializer serializer = new DataContractSerializer(
-			typeof(IEnumerable<Category>));
+			typeof(IEnumerable<T>));
 
 		public RedisCache(string hostName)
 		{

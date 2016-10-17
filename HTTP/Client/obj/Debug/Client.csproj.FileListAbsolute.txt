@@ -2,6 +2,5 @@ D:\WorkSpace\LocalGit\caching\HTTP\Client\bin\Debug\Client.dll
 D:\WorkSpace\LocalGit\caching\HTTP\Client\bin\Debug\Client.pdb
 D:\WorkSpace\LocalGit\caching\HTTP\Client\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 D:\WorkSpace\LocalGit\caching\HTTP\Client\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
-D:\WorkSpace\LocalGit\caching\HTTP\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
 D:\WorkSpace\LocalGit\caching\HTTP\Client\obj\Debug\Client.dll
 D:\WorkSpace\LocalGit\caching\HTTP\Client\obj\Debug\Client.pdb

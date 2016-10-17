@@ -6,7 +6,7 @@ namespace CachingSolutionsSamples
 	internal class MemoryCache<T> : ICache<T>
 	{
 		ObjectCache cache = MemoryCache.Default;
-		string prefix  = "Cache_Categories";
+		string prefix  = "Cache_" + typeof(T);
 
 		public IEnumerable<T> Get(string forUser)
 		{
