@@ -1,0 +1,17 @@
+D:\Work\Caching\Application\CachingSolutionsSamples\bin\Debug\CachingSolutionsSamples.dll.config
+D:\Work\Caching\Application\CachingSolutionsSamples\bin\Debug\CachingSolutionsSamples.dll
+D:\Work\Caching\Application\CachingSolutionsSamples\bin\Debug\CachingSolutionsSamples.pdb
+D:\Work\Caching\Application\CachingSolutionsSamples\bin\Debug\EntityFramework.dll
+D:\Work\Caching\Application\CachingSolutionsSamples\bin\Debug\EntityFramework.SqlServer.dll
+D:\Work\Caching\Application\CachingSolutionsSamples\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Work\Caching\Application\CachingSolutionsSamples\bin\Debug\NorthwindLibrary.dll
+D:\Work\Caching\Application\CachingSolutionsSamples\bin\Debug\StackExchange.Redis.dll
+D:\Work\Caching\Application\CachingSolutionsSamples\bin\Debug\NorthwindLibrary.pdb
+D:\Work\Caching\Application\CachingSolutionsSamples\bin\Debug\EntityFramework.xml
+D:\Work\Caching\Application\CachingSolutionsSamples\bin\Debug\EntityFramework.SqlServer.xml
+D:\Work\Caching\Application\CachingSolutionsSamples\bin\Debug\StackExchange.Redis.pdb
+D:\Work\Caching\Application\CachingSolutionsSamples\bin\Debug\StackExchange.Redis.xml
+D:\Work\Caching\Application\CachingSolutionsSamples\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\Work\Caching\Application\CachingSolutionsSamples\obj\Debug\CachingSolutionsSamples.csprojResolveAssemblyReference.cache
+D:\Work\Caching\Application\CachingSolutionsSamples\obj\Debug\CachingSolutionsSamples.dll
+D:\Work\Caching\Application\CachingSolutionsSamples\obj\Debug\CachingSolutionsSamples.pdb
