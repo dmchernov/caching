@@ -66,10 +66,10 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="CategoriesManager.cs" />
-    <Compile Include="CategoriesMemoryCache.cs" />
-    <Compile Include="CategoriesRedisCache.cs" />
-    <Compile Include="ICategoriesCache.cs" />
+    <Compile Include="Manager.cs" />
+    <Compile Include="MemoryCache.cs" />
+    <Compile Include="RedisCache.cs" />
+    <Compile Include="ICache.cs" />
     <Compile Include="CacheTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

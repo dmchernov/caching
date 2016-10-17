@@ -8,3 +8,13 @@ D:\Work\Caching\Application\NorthwindLibrary\bin\Debug\EntityFramework.SqlServer
 D:\Work\Caching\Application\NorthwindLibrary\obj\Debug\NorthwindLibrary.csprojResolveAssemblyReference.cache
 D:\Work\Caching\Application\NorthwindLibrary\obj\Debug\NorthwindLibrary.dll
 D:\Work\Caching\Application\NorthwindLibrary\obj\Debug\NorthwindLibrary.pdb
+D:\WorkSpace\LocalGit\caching\Application\NorthwindLibrary\bin\Debug\NorthwindLibrary.dll.config
+D:\WorkSpace\LocalGit\caching\Application\NorthwindLibrary\bin\Debug\NorthwindLibrary.dll
+D:\WorkSpace\LocalGit\caching\Application\NorthwindLibrary\bin\Debug\NorthwindLibrary.pdb
+D:\WorkSpace\LocalGit\caching\Application\NorthwindLibrary\bin\Debug\EntityFramework.dll
+D:\WorkSpace\LocalGit\caching\Application\NorthwindLibrary\bin\Debug\EntityFramework.SqlServer.dll
+D:\WorkSpace\LocalGit\caching\Application\NorthwindLibrary\bin\Debug\EntityFramework.xml
+D:\WorkSpace\LocalGit\caching\Application\NorthwindLibrary\bin\Debug\EntityFramework.SqlServer.xml
+D:\WorkSpace\LocalGit\caching\Application\NorthwindLibrary\obj\Debug\NorthwindLibrary.csprojResolveAssemblyReference.cache
+D:\WorkSpace\LocalGit\caching\Application\NorthwindLibrary\obj\Debug\NorthwindLibrary.dll
+D:\WorkSpace\LocalGit\caching\Application\NorthwindLibrary\obj\Debug\NorthwindLibrary.pdb

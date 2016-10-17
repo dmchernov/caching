@@ -10,25 +10,37 @@ namespace CachingSolutionsSamples
 	public class CacheTests
 	{
 		[TestMethod]
-		public void MemoryCache()
+		public void CategoriesMemoryCacheTest()
 		{
-			var categoryManager = new CategoriesManager(new CategoriesMemoryCache());
+			var categoryManager = new Manager<Category>(new MemoryCache<Category>());
 
 			for (var i = 0; i < 10; i++)
 			{
-				Console.WriteLine(categoryManager.GetCategories().Count());
+				Console.WriteLine(categoryManager.Get().Count());
 				Thread.Sleep(100);
 			}
 		}
 
 		[TestMethod]
-		public void RedisCache()
+		public void EmployeesMemoryCacheTest()
 		{
-			var categoryManager = new CategoriesManager(new CategoriesRedisCache("localhost"));
+			var categoryManager = new Manager<Employee>(new MemoryCache<Employee>());
 
 			for (var i = 0; i < 10; i++)
 			{
-				Console.WriteLine(categoryManager.GetCategories().Count());
+				Console.WriteLine(categoryManager.Get().Count());
+				Thread.Sleep(100);
+			}
+		}
+
+		[TestMethod]
+		public void CategoriesRedisCacheTest()
+		{
+			var categoryManager = new Manager<Category>(new RedisCache<Category>("localhost"));
+
+			for (var i = 0; i < 10; i++)
+			{
+				Console.WriteLine(categoryManager.Get().Count());
 				Thread.Sleep(100);
 			}
 		}
