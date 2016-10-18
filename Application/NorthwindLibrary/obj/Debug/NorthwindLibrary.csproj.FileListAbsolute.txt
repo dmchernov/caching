@@ -17,3 +17,12 @@ D:\WorkSpace\LocalGit\caching\Application\NorthwindLibrary\bin\Debug\EntityFrame
 D:\WorkSpace\LocalGit\caching\Application\NorthwindLibrary\bin\Debug\EntityFramework.SqlServer.xml
 D:\WorkSpace\LocalGit\caching\Application\NorthwindLibrary\obj\Debug\NorthwindLibrary.dll
 D:\WorkSpace\LocalGit\caching\Application\NorthwindLibrary\obj\Debug\NorthwindLibrary.pdb
+D:\Temp\Caching d1-d2\Application\NorthwindLibrary\bin\Debug\NorthwindLibrary.dll.config
+D:\Temp\Caching d1-d2\Application\NorthwindLibrary\bin\Debug\NorthwindLibrary.dll
+D:\Temp\Caching d1-d2\Application\NorthwindLibrary\bin\Debug\NorthwindLibrary.pdb
+D:\Temp\Caching d1-d2\Application\NorthwindLibrary\bin\Debug\EntityFramework.dll
+D:\Temp\Caching d1-d2\Application\NorthwindLibrary\bin\Debug\EntityFramework.SqlServer.dll
+D:\Temp\Caching d1-d2\Application\NorthwindLibrary\bin\Debug\EntityFramework.xml
+D:\Temp\Caching d1-d2\Application\NorthwindLibrary\bin\Debug\EntityFramework.SqlServer.xml
+D:\Temp\Caching d1-d2\Application\NorthwindLibrary\obj\Debug\NorthwindLibrary.dll
+D:\Temp\Caching d1-d2\Application\NorthwindLibrary\obj\Debug\NorthwindLibrary.pdb

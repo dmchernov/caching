@@ -6,11 +6,11 @@ using System.Threading;
 
 namespace CachingSolutionsSamples
 {
-	public class Manager<T> where T:class
+	public class EntityManager<T> where T:class
 	{
 		private ICache<T> cache;
 
-		public Manager(ICache<T> cache)
+		public EntityManager(ICache<T> cache)
 		{
 			this.cache = cache;
 		}

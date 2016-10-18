@@ -32,3 +32,19 @@ D:\WorkSpace\LocalGit\caching\Application\CachingSolutionsSamples\bin\Debug\Enti
 D:\WorkSpace\LocalGit\caching\Application\CachingSolutionsSamples\bin\Debug\StackExchange.Redis.pdb
 D:\WorkSpace\LocalGit\caching\Application\CachingSolutionsSamples\bin\Debug\StackExchange.Redis.xml
 D:\WorkSpace\LocalGit\caching\Application\CachingSolutionsSamples\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\Temp\Caching d1-d2\Application\CachingSolutionsSamples\bin\Debug\CachingSolutionsSamples.dll.config
+D:\Temp\Caching d1-d2\Application\CachingSolutionsSamples\bin\Debug\CachingSolutionsSamples.dll
+D:\Temp\Caching d1-d2\Application\CachingSolutionsSamples\bin\Debug\CachingSolutionsSamples.pdb
+D:\Temp\Caching d1-d2\Application\CachingSolutionsSamples\bin\Debug\EntityFramework.dll
+D:\Temp\Caching d1-d2\Application\CachingSolutionsSamples\bin\Debug\EntityFramework.SqlServer.dll
+D:\Temp\Caching d1-d2\Application\CachingSolutionsSamples\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Temp\Caching d1-d2\Application\CachingSolutionsSamples\bin\Debug\NorthwindLibrary.dll
+D:\Temp\Caching d1-d2\Application\CachingSolutionsSamples\bin\Debug\StackExchange.Redis.dll
+D:\Temp\Caching d1-d2\Application\CachingSolutionsSamples\bin\Debug\NorthwindLibrary.pdb
+D:\Temp\Caching d1-d2\Application\CachingSolutionsSamples\bin\Debug\EntityFramework.xml
+D:\Temp\Caching d1-d2\Application\CachingSolutionsSamples\bin\Debug\EntityFramework.SqlServer.xml
+D:\Temp\Caching d1-d2\Application\CachingSolutionsSamples\bin\Debug\StackExchange.Redis.pdb
+D:\Temp\Caching d1-d2\Application\CachingSolutionsSamples\bin\Debug\StackExchange.Redis.xml
+D:\Temp\Caching d1-d2\Application\CachingSolutionsSamples\obj\Debug\CachingSolutionsSamples.csprojResolveAssemblyReference.cache
+D:\Temp\Caching d1-d2\Application\CachingSolutionsSamples\obj\Debug\CachingSolutionsSamples.dll
+D:\Temp\Caching d1-d2\Application\CachingSolutionsSamples\obj\Debug\CachingSolutionsSamples.pdb

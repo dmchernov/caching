@@ -4,3 +4,9 @@ D:\WorkSpace\LocalGit\caching\HTTP\Client\bin\Debug\Microsoft.VisualStudio.Quali
 D:\WorkSpace\LocalGit\caching\HTTP\Client\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
 D:\WorkSpace\LocalGit\caching\HTTP\Client\obj\Debug\Client.dll
 D:\WorkSpace\LocalGit\caching\HTTP\Client\obj\Debug\Client.pdb
+D:\Temp\Caching d1-d2\HTTP\Client\bin\Debug\Client.dll
+D:\Temp\Caching d1-d2\HTTP\Client\bin\Debug\Client.pdb
+D:\Temp\Caching d1-d2\HTTP\Client\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Temp\Caching d1-d2\HTTP\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+D:\Temp\Caching d1-d2\HTTP\Client\obj\Debug\Client.dll
+D:\Temp\Caching d1-d2\HTTP\Client\obj\Debug\Client.pdb

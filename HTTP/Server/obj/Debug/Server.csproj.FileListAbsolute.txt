@@ -17,3 +17,23 @@ D:\WorkSpace\LocalGit\caching\HTTP\Server\bin\Microsoft.CodeDom.Providers.DotNet
 D:\WorkSpace\LocalGit\caching\HTTP\Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\WorkSpace\LocalGit\caching\HTTP\Server\obj\Debug\Server.dll
 D:\WorkSpace\LocalGit\caching\HTTP\Server\obj\Debug\Server.pdb
+D:\Temp\Caching d1-d2\HTTP\Server\bin\roslyn\csc.exe
+D:\Temp\Caching d1-d2\HTTP\Server\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Temp\Caching d1-d2\HTTP\Server\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Temp\Caching d1-d2\HTTP\Server\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Temp\Caching d1-d2\HTTP\Server\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Temp\Caching d1-d2\HTTP\Server\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Temp\Caching d1-d2\HTTP\Server\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Temp\Caching d1-d2\HTTP\Server\bin\roslyn\System.Collections.Immutable.dll
+D:\Temp\Caching d1-d2\HTTP\Server\bin\roslyn\System.Reflection.Metadata.dll
+D:\Temp\Caching d1-d2\HTTP\Server\bin\roslyn\vbc.exe
+D:\Temp\Caching d1-d2\HTTP\Server\bin\roslyn\VBCSCompiler.exe
+D:\Temp\Caching d1-d2\HTTP\Server\bin\roslyn\VBCSCompiler.exe.config
+D:\Temp\Caching d1-d2\HTTP\Server\bin\Server.dll.config
+D:\Temp\Caching d1-d2\HTTP\Server\bin\Server.dll
+D:\Temp\Caching d1-d2\HTTP\Server\bin\Server.pdb
+D:\Temp\Caching d1-d2\HTTP\Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Temp\Caching d1-d2\HTTP\Server\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Temp\Caching d1-d2\HTTP\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+D:\Temp\Caching d1-d2\HTTP\Server\obj\Debug\Server.dll
+D:\Temp\Caching d1-d2\HTTP\Server\obj\Debug\Server.pdb

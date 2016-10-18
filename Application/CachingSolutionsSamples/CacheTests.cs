@@ -12,7 +12,7 @@ namespace CachingSolutionsSamples
 		[TestMethod]
 		public void CategoriesMemoryCacheTest()
 		{
-			var manager = new Manager<Category>(new MemoryCache<Category>());
+			var manager = new EntityManager<Category>(new MemoryCache<Category>());
 
 			for (var i = 0; i < 10; i++)
 			{
@@ -24,7 +24,7 @@ namespace CachingSolutionsSamples
 		[TestMethod]
 		public void ProductsMemoryCacheTest()
 		{
-			var manager = new Manager<Product>(new MemoryCache<Product>());
+			var manager = new EntityManager<Product>(new MemoryCache<Product>());
 
 			for (var i = 0; i < 10; i++)
 			{
@@ -36,7 +36,7 @@ namespace CachingSolutionsSamples
 		[TestMethod]
 		public void CustomersMemoryCacheTest()
 		{
-			var manager = new Manager<Customer>(new MemoryCache<Customer>());
+			var manager = new EntityManager<Customer>(new MemoryCache<Customer>());
 
 			for (var i = 0; i < 10; i++)
 			{
@@ -48,7 +48,7 @@ namespace CachingSolutionsSamples
 		[TestMethod]
 		public void CategoriesRedisCacheTest()
 		{
-			var manager = new Manager<Category>(new RedisCache<Category>("localhost"));
+			var manager = new EntityManager<Category>(new RedisCache<Category>("localhost"));
 
 			for (var i = 0; i < 10; i++)
 			{
@@ -60,7 +60,7 @@ namespace CachingSolutionsSamples
 		[TestMethod]
 		public void ProductsRedisCacheTest()
 		{
-			var manager = new Manager<Product>(new RedisCache<Product>("localhost"));
+			var manager = new EntityManager<Product>(new RedisCache<Product>("localhost"));
 
 			for (var i = 0; i < 10; i++)
 			{
@@ -72,7 +72,7 @@ namespace CachingSolutionsSamples
 		[TestMethod]
 		public void CustomersRedisCacheTest()
 		{
-			var manager = new Manager<Customer>(new RedisCache<Customer>("localhost"));
+			var manager = new EntityManager<Customer>(new RedisCache<Customer>("localhost"));
 
 			for (var i = 0; i < 10; i++)
 			{
