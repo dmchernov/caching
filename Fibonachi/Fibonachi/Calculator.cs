@@ -25,10 +25,12 @@ namespace Fibonachi
 			{
 				var result = arg.Calculate();
 				_cache.Set(user, result);
-				return arg.Calculate();
+				return result;
 			}
 
-			return arg.Calculate();
+			var newResult = arg.CalculateWithPreviousResult(cacheResults);
+			_cache.Set(user, newResult);
+			return newResult;
 		}
 	}
 }

@@ -20,7 +20,7 @@ namespace Fibonachi
 		{
 			if (Line.Count == Length) return this;
 
-			for (int i = 0; i < Length; i++)
+			for (int i = Line.Count; i < Length; i++)
 			{
 				if (i < 2) Line.Add(1);
 				else Line.Add(Line[i-2] + Line[i-1]);
