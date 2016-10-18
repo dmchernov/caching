@@ -8,19 +8,25 @@ using System.Threading.Tasks;
 
 namespace Fibonachi
 {
-	class MemoryCache<T> : ICache<T>
+	class FibonachiMemoryCache : ICache<FibonachiLine>
 	{
 		ObjectCache cache = System.Runtime.Caching.MemoryCache.Default;
-		string prefix = "Cache_" + typeof(T);
+		string prefix = "Cache_" + typeof(FibonachiLine);
 
-		public IDictionary<string, T> Get(string forUser)
+		public FibonachiLine Get(string forUser, FibonachiLine obj)
 		{
-			return cache.GetValues(prefix + forUser) as IDictionary<string,T>;
+			for (int i = obj.Length; i > 0; i--)
+			{
+				var result = cache.Get(prefix + obj.Length + forUser) as FibonachiLine;
+				if(result == null) continue;
+				return result;
+			}
+			return null;
 		}
 
-		public void Set(string forUser, T obj)
+		public void Set(string forUser, FibonachiLine obj)
 		{
-			cache.Set(prefix + forUser, obj, ObjectCache.InfiniteAbsoluteExpiration);
+			cache.Set(prefix + obj.Length + forUser, obj, ObjectCache.InfiniteAbsoluteExpiration);
 		}
 	}
 }

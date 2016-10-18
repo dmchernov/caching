@@ -28,5 +28,12 @@ namespace Fibonachi
 
 			return this;
 		}
+
+		public FibonachiLine CalculateWithPreviousResult(FibonachiLine previous)
+		{
+			Line = previous.Line;
+
+			return Calculate();
+		}
 	}
 }

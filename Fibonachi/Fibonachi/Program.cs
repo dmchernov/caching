@@ -15,7 +15,7 @@ namespace Fibonachi
 			int count;
 			if (!Int32.TryParse(Console.ReadLine(), out count)) count = 10;
 
-			var calc = new Calculator<FibonachiLine>(new MemoryCache<FibonachiLine>());
+			var calc = new Calculator<FibonachiLine>(new FibonachiMemoryCache());
 
 			var result = calc.Calculate(new FibonachiLine(count));
 

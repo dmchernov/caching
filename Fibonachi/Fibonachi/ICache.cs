@@ -4,7 +4,7 @@ namespace Fibonachi
 {
 	public interface ICache<T>
 	{
-		IDictionary<string,T> Get(string forUser);
+		T Get(string forUser, T obj);
 		void Set(string forUser, T obj);
 	}
 }
