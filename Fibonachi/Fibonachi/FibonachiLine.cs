@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Runtime.Serialization;
 
 namespace Fibonachi
 {
+	[Serializable]
 	public class FibonachiLine : ICalculate<FibonachiLine>
 	{
+		[DataMember]
 		public List<ulong> Line { get; private set; } = new List<ulong>();
+		[DataMember]
 		public int Length { get; private set; }
 
 		public FibonachiLine(int count)
