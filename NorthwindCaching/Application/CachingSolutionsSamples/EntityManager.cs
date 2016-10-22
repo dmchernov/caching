@@ -1,7 +1,9 @@
 ﻿using NorthwindLibrary;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
+using System.Runtime.Caching;
 using System.Threading;
 
 namespace CachingSolutionsSamples

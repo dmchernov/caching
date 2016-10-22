@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using NorthwindLibrary;
 using StackExchange.Redis;
 using System.IO;
+using System.Runtime.Caching;
 using System.Runtime.Serialization;
 
 namespace CachingSolutionsSamples
@@ -43,7 +45,8 @@ namespace CachingSolutionsSamples
 			{
 				var stream = new MemoryStream();
 				serializer.WriteObject(stream, collection);
-				db.StringSet(key, stream.ToArray());
+				// Кэш действителен 5 секунд
+				db.StringSet(key, stream.ToArray(), TimeSpan.FromSeconds(5));
 			}
 		}
 	}
