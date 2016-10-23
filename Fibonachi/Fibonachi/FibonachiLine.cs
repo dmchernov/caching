@@ -32,9 +32,20 @@ namespace Fibonachi
 
 		public FibonachiLine CalculateWithPreviousResult(FibonachiLine previous)
 		{
+			ShowPreviousResults(previous);
 			Line = previous.Line;
 
 			return Calculate();
+		}
+
+		private void ShowPreviousResults(FibonachiLine previous)
+		{
+			Console.WriteLine("Результаты предыдущих вычислений из кэша:");
+			foreach (var digit in previous.Line)
+			{
+				Console.Write($"{digit} ");
+			}
+			Console.WriteLine();
 		}
 	}
 }

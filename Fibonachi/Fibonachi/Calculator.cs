@@ -2,7 +2,7 @@
 {
 	class Calculator<T> where T:ICalculate<T>
 	{
-		private ICache<T> _cache;
+		private readonly ICache<T> _cache;
 
 		public Calculator(ICache<T> cache)
 		{
