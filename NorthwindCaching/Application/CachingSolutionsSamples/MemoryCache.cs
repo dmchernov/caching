@@ -4,7 +4,7 @@ using System.Runtime.Caching;
 
 namespace CachingSolutionsSamples
 {
-	internal class MemoryCache<T> : ICache<T>
+	public class MemoryCache<T> : ICache<T>
 	{
 		private CacheItemPolicy _policy;
 		public MemoryCache() { }
@@ -12,6 +12,7 @@ namespace CachingSolutionsSamples
 		{
 			_policy = policy;
 		}
+
 		ObjectCache cache = MemoryCache.Default;
 		string prefix  = "Cache_" + typeof(T);
 
@@ -20,12 +21,14 @@ namespace CachingSolutionsSamples
 			return (IEnumerable<T>) cache.Get(prefix + forUser);
 		}
 
-		public void Set(string forUser, IEnumerable<T> collection)
+		public void Set(string forUser, IEnumerable<T> collection, CacheItemPolicy policy = null)
 		{
-			if (_policy == null)
+			if (policy == null)
 				cache.Set(prefix + forUser, collection, new DateTimeOffset(DateTime.Now.AddSeconds(5)));
 			else
-				cache.Add(prefix + forUser, collection, _policy);
+			{
+				cache.Set(prefix + forUser, collection, policy);
+			}
 		}
 	}
 }
